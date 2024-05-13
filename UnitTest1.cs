@@ -113,14 +113,14 @@ namespace UnitTestProject1
     }
 
     [TestMethod]
-    public void TestMethodPluss()
+    public void TestMethodAdditionOverload()
     {
       var actualResult = matrix1 + matrix2;
       Assert.IsInstanceOfType(actualResult, typeof(sem2lab10.SquareMatrix));
     }
 
     [TestMethod]
-    public void TestMethodMultiplication()
+    public void TestMethodMultiplicationOverload()
     {
       var actualResult = matrix1 * matrix2;
       Assert.IsInstanceOfType(actualResult, typeof(sem2lab10.SquareMatrix));
